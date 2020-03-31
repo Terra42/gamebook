@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #202020;
+  color: white;
+}
+
+h1 {
+  font-size: 10vw;
+  color: white;
+  text-shadow: 1px 0 0 black;
+}
+
+h2 {
+  font-size: 4vw;
+  color: white;
+  text-shadow: 1px 0 0 black;
+}
+
+h3 {
+  font-family: "Gotu", sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  padding: 5vh 0;
+}
+
+p {
+  padding-bottom: 50px;
+}
+
+.header {
+  height: 100vh;
+  width: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://get.pxhere.com/photo/black-and-white-architecture-mansion-house-building-old-home-shack-abandoned-monochrome-scary-ruins-history-estate-rural-area-monochrome-photography-residential-area-685576.jpg);
+  background-size: cover;
+  font-family: "Gotu", sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.footer {
+  height: 100vh;
+  width: auto;
+  font-family: "Gotu", sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 200px;
+  position: relative;
+}
+
+.headings {
+  position: absolute;
+  left: 15vw;
+  top: 15vh;
+}
+
+.page {
+  height: 100vh;
+  width: auto;
+  font-size: 1.5vw;
+  border-bottom: 5px dotted white;
+  position: relative;
+}
+
+.page-container {
+  width: 70vw;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 150%;
+}
+
+.page-table {
+  width: 100%;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1.3vw;
+}
+
+.page-table td {
+  height: 15vh;
+  padding-bottom: 10px;
+}
+
+.page-table td:first-child {
+  width: 10%;
+}
+
+.page-table td:last-child {
+  width: 20%;
+  padding-left: 20px;
+}
+
+.button-header {
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  background: linear-gradient(to bottom, #21201f 5%, #302d30 100%);
+  background-color: #21201f;
+  border-radius: 15px;
+  border: 2px solid #262523;
+  display: inline-block;
+  cursor: pointer;
+  color: #f2edf2;
+  font-family: Trebuchet MS;
+  font-size: 35px;
+  padding: 19px 100px;
+  text-decoration: none;
+  text-shadow: 1px 0px 0px #080808;
+  margin-top: 13vh;
+}
+
+.button-header:hover {
+  background: linear-gradient(to bottom, #302d30 5%, #21201f 100%);
+  background-color: #302d30;
+}
+
+.button-header:active {
+  position: relative;
+  top: 1px;
+}
+
+.button-page {
+  box-shadow: 0px 1px 0px 0px #333230;
+  background: linear-gradient(to bottom, #474444 5%, #6b676b 100%);
+  background-color: #474444;
+  border-radius: 15px;
+  border: 2px solid #474542;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff7ff;
+  font-family: Trebuchet MS;
+  font-size: 22px;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-shadow: 1px 0px 0px #080808;
+}
+
+.button-page:hover {
+  background: linear-gradient(to bottom, #6b676b 5%, #474444 100%);
+  background-color: #6b676b;
+}
+
+.continue {
+  position: absolute;
+  bottom: 8vw;
+  left: 40vw;
+}
+
+.table-footer {
+  text-align: left;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.table-footer td {
+  padding-right: 20px;
+}
+
+.table-footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gotu", sans-serif;
+  font-size: 1.5vw;
+}
+
+.table-footer a:hover {
+  color: grey;
+}
+
+.copyright {
+  font-size: 1vw;
+  position: absolute;
+  bottom: 3vw;
+  left: 36vw;
+  padding: 0;
+}
+
+.last-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.last-page a {
+  margin: 0 70px;
+}
+
+.ghost {
+  width: 70%;
+}
+
+.icon {
+  height: 40px;
+}
